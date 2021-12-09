@@ -31,14 +31,14 @@ const orLogin = 'or login with';
 const resetPasswordHeader = 'Reset Password';
 const resetPasswordSubhead = 'A one time password will be sent to this email address';
 const sendBtnText = 'Send';
-const otpVerificationHeader = '';
-const otpVerificationSubhead = '';
+const otpVerificationHeader = 'Otp Verification';
+const otpVerificationSubhead = 'Enter the code sent to Name@email.com';
 const otpDidNot = 'Didn’t receive any code?';
 const otpResend = 'Resend Code';
 const continueBtnText = 'Continue';
 const createNewPswdHeader = 'Create New Password';
 const createNewPswdSubhead = 'Your new password must be different from previous passwords.';
-
+const forgotPswd = 'Forgot password?';
 
 
 

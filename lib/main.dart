@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:zouse/ui/splashscreen.dart';
+import 'package:zouse/utils/assets.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
+      theme: ThemeData(fontFamily: fontManrope,
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the

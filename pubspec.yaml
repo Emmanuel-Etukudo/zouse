@@ -15,6 +15,7 @@ dependencies:
   #Base
   cupertino_icons: ^1.0.2
   nb_utils: ^4.4.8
+  otp_text_field: ^1.1.1
 
 
 dev_dependencies:

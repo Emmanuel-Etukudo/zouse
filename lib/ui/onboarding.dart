@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:nb_utils/src/extensions/widget_extensions.dart';
+import 'package:zouse/ui/create_account.dart';
 import 'package:zouse/ui/get_started.dart';
+import 'package:zouse/ui/login.dart';
 import 'package:zouse/utils/assets.dart';
 import 'package:zouse/utils/colors.dart';
 import 'package:zouse/utils/strings.dart';
@@ -53,11 +55,11 @@ class _OnboardingState extends State<Onboarding> {
                 35.height,
                 CommonButton(text: onboardingBtnText1, onPressed: (){
                   finish(context);
-                  GetStarted().launch(context);
+                  CreateAccount().launch(context);
                 }).paddingSymmetric(horizontal: 15.0),
                 16.height,
                 TransparentButton(text: onboardingBtnText2, onPressed: (){
-                  GetStarted().launch(context);
+                  Login().launch(context);
                   //finish(context);
                 }).paddingSymmetric(horizontal: 15.0),
                 35.height,
